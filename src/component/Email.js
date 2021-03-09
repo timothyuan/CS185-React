@@ -33,7 +33,7 @@ class Email extends Component{
         return(
             <div>
                 <div className="center">
-                <form>
+                <form style={{paddingTop:"30vh"}}>
                 <label htmlFor="emailInput">E-mail:</label>
                 <input type="text" id="emailInput" value={this.state.inputValue} onChange={this.updateInputValue}/><br/><br/>
                 <input type="button" value="Submit" onClick={this.validateEmail}/>
