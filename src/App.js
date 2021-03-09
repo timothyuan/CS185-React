@@ -41,6 +41,10 @@ export class App extends Component{
     {
       id:5,
       title: 'E-mail'
+    },
+    {
+      id:6,
+      title: 'Schedule'
     }
 
     ]

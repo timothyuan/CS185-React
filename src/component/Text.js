@@ -7,7 +7,7 @@ class Text extends Component{
 
     return (
         <div className="center">
-        <form action="submit">
+        <form action="submit" style={{paddingTop:"30vh"}}>
             <label htmlFor="fname">First Name:</label>
             <input type="text" id="fname" value="Timothy"/> <br/>
             <label htmlFor="lname">Last Name:</label>

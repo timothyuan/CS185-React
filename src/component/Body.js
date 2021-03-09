@@ -4,6 +4,7 @@ import Images from './Images'
 import Videos from './Videos'
 import Projects from './Projects'
 import Email from './Email'
+import Schedule from './Schedule'
 
 
 export class Body extends Component{
@@ -21,8 +22,10 @@ export class Body extends Component{
 			return <Videos/>
 		else if (activeTab==4)
 			return <Projects/>
-        else
+        else if (activeTab==5)
             return <Email/>
+		else
+			return <Schedule/>
              
       
   }
